@@ -5,10 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- TODO: Set the document title to the name of your application -->
     <title>AgriSack - Your Trusted Packaging Partner</title>
-    <link rel="icon" type="image/png" href="/agrisack-logo.png?v=2" />
-    <link rel="shortcut icon" type="image/png" href="/agrisack-logo.png?v=2" />
-    <link rel="apple-touch-icon" href="/agrisack-logo.png?v=2" />
+    <link rel="icon" type="image/png" href="/agrisack-logo.png?t=20260604" />
+    <link rel="shortcut icon" type="image/png" href="/agrisack-logo.png?t=20260604" />
+    <link rel="apple-touch-icon" href="/agrisack-logo.png?t=20260604" />
+    <link rel="manifest" href="/manifest.json" />
     <meta name="theme-color" content="#FF9800" />
+    <script>
+      // Clear favicon cache on load
+      if (document.querySelector('link[rel="icon"]')) {
+        const newIcon = document.createElement('link');
+        newIcon.rel = 'icon';
+        newIcon.type = 'image/png';
+        newIcon.href = '/agrisack-logo.png?t=' + Date.now();
+        document.head.appendChild(newIcon);
+      }
+    </script>
     <meta name="description" content="AgriSack by Gopal Polytech - Premium industrial packaging solutions. Woven PP Sacks, FIBC Jumbo Bags, BOPP Bags & more since 2018." />
     <meta name="author" content="Gopal Polytech" />
 

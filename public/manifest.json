@@ -1,0 +1,17 @@
+{
+  "name": "AgriSack - Your Trusted Packaging Partner",
+  "short_name": "AgriSack",
+  "description": "Premium industrial packaging solutions by Gopal Polytech",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#FF9800",
+  "icons": [
+    {
+      "src": "/agrisack-logo.png",
+      "sizes": "1920x1027",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
