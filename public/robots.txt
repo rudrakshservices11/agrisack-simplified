@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Sitemap: https://atsoviax.com/sitemap.xml
+Allow: /
+
+User-agent: *
+Allow: /
