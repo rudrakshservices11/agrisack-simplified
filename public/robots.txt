@@ -1,7 +1,5 @@
 User-agent: *
 Allow: /
-Sitemap: https://atsoviax.com/sitemap.xml
-Allow: /
+Disallow: /private/
 
-User-agent: *
-Allow: /
+Sitemap: https://www.agrisack.com/sitemap.xml
