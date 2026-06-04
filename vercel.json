@@ -7,6 +7,15 @@
   ],
   "headers": [
     {
+      "source": "/agrisack-logo-v2.png",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
       "source": "/agrisack-logo.png",
       "headers": [
         {
