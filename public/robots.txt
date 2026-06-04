@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
-Disallow: /private/
 
 Sitemap: https://www.agrisack.com/sitemap.xml
